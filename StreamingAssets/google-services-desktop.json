@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413225724177",
+    "project_id": "unplanned-adventure",
+    "storage_bucket": "unplanned-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413225724177:android:f94d5f9b83b46f7a31c4b0",
+        "android_client_info": {
+          "package_name": "com.APgames.UnplannedAdventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413225724177-mumgo6tunh11us52524pp3ms9m4lk1fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2EqUw7ilsEBVBbUfEYnBKdtGbG80_Chs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413225724177-mumgo6tunh11us52524pp3ms9m4lk1fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

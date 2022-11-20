@@ -46,18 +46,18 @@
 	<div id="gameContainer">
 
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/PA-VK-1001.loader.js"></script>
+		<script src="Build/VKupdate.loader.js"></script>
 
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/PA-VK-1001.data.unityweb",
-				frameworkUrl: "Build/PA-VK-1001.framework.js.unityweb",
-				codeUrl: "Build/PA-VK-1001.wasm.unityweb",
+				dataUrl: "Build/VKupdate.data.unityweb",
+				frameworkUrl: "Build/VKupdate.framework.js.unityweb",
+				codeUrl: "Build/VKupdate.wasm.unityweb",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "APgames",
 				productName: "Pixel Adventure",
-				productVersion: "1.0.0.1",
+				productVersion: "1.1.1.1",
 			};
 			var scaleToFit;
             var unityI = null;
@@ -80,15 +80,15 @@
 					w = window.innerWidth;
 					h = window.innerHeight;
 
-					var r = 1080 / 1980;
+					var r = 720 / 1280;
 
 					if (w * r > window.innerHeight) {
 						w = Math.min(w, Math.ceil(h / r));
 					}
 					h = Math.floor(w * r);
 				} else {
-					w = 1980;
-					h = 1080;
+					w = 1280;
+					h = 720;
 				}
 
 				container.style.width = canvas.style.width = w + "px";
@@ -150,8 +150,8 @@
 
 	  function postWall(){
 		  vkBridge.send("VKWebAppShowWallPostBox", {
-              "message": "Pixel Adventure - крутая игра, в которой предстоит пройти сложное приключение!",
-              "attachments": "https://vk.com/app8190525_205468985"
+		"message": "Крутая игра, Pixel Adventure!",
+		"attachments": "https://vk.com/app8096716_205468985"
 		});
 	  }
 
